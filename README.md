@@ -1,6 +1,6 @@
 ## MapReduce LoRA: Advancing the Pareto Front in Multi-Preference Optimization for Generative Models
 
-[![arXiv](https://img.shields.io/badge/arXiv-2511.20629-red)](https://arxiv.org/pdf/2511.20629) [![HF Model](https://img.shields.io/badge/HF-Model-yellow?logo=huggingface)](https://huggingface.co/collections/Chieh-Yun/mapreduce-lora) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/SHI-Labs/T2I-Copilot/blob/master/LICENSE) [![BibTeX](https://img.shields.io/badge/BibTeX-green)](#citation)
+[![arXiv](https://img.shields.io/badge/arXiv-2511.20629-red)](https://arxiv.org/pdf/2511.20629) [![HF Model](https://img.shields.io/badge/HF-Model-yellow?logo=huggingface)](https://huggingface.co/collections/shi-labs/mapreduce-lora) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/SHI-Labs/T2I-Copilot/blob/master/LICENSE) [![BibTeX](https://img.shields.io/badge/BibTeX-green)](#citation)
 
 
 <p align="center">
@@ -237,16 +237,16 @@ model_name="sd35" #flux
 model_ckpt="SD3.5M" #FLUX.1-dev
 
 # inference with individual experts GenEval 
-python scripts/test_${model_name}.py --mode eval_single --use_adapter --lora_checkpoint "Chieh-Yun/${model_ckpt}-ind-expert-GenEval" --results_dir "results/ind-geneval/"
+python scripts/test_${model_name}.py --mode eval_single --use_adapter --lora_checkpoint "shi-labs/${model_ckpt}-ind-expert-GenEval" --results_dir "results/ind-geneval/"
 
 # inference with individual experts PickScore 
-python scripts/test_${model_name}.py --mode eval_single --use_adapter --lora_checkpoint "Chieh-Yun/${model_ckpt}-ind-expert-PickScore" --results_dir "results/ind-pickscore/"
+python scripts/test_${model_name}.py --mode eval_single --use_adapter --lora_checkpoint "shi-labs/${model_ckpt}-ind-expert-PickScore" --results_dir "results/ind-pickscore/"
 
 # inference with individual experts OCR 
-python scripts/test_${model_name}.py --mode eval_single --use_adapter --lora_checkpoint "Chieh-Yun/${model_ckpt}-ind-expert-OCR" --results_dir "results/ind-ocr/"
+python scripts/test_${model_name}.py --mode eval_single --use_adapter --lora_checkpoint "shi-labs/${model_ckpt}-ind-expert-OCR" --results_dir "results/ind-ocr/"
 
 # inference with MapReduce-LoRA
-python scripts/test_${model_name}.py --mode eval_single --use_adapter --lora_checkpoint "Chieh-Yun/${model_ckpt}-MapReduce-LoRA-merge-k4" --results_dir "results/mpr/"
+python scripts/test_${model_name}.py --mode eval_single --use_adapter --lora_checkpoint "shi-labs/${model_ckpt}-MapReduce-LoRA-merge-k4" --results_dir "results/mpr/"
 ```
 
 ### 2. Reward-aware Token Embedding on Text-to-Image
