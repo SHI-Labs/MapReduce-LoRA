@@ -1,4 +1,4 @@
-## MapReduce LoRA: Advancing the Pareto Front in Multi-Preference Optimization for Generative Models
+<h2 align="center">MapReduce LoRA: Advancing the Pareto Front in Multi-Preference Optimization for Generative Models</h2>
 
 <p align="center">
 Chieh-Yun Chen¹,
@@ -21,7 +21,11 @@ Humphrey Shi¹†
 <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</em>
 </p>
 
+<div align="center">
+
 [![arXiv](https://img.shields.io/badge/arXiv-2511.20629-red)](https://arxiv.org/pdf/2511.20629) [![HF Model](https://img.shields.io/badge/HF-Model-yellow?logo=huggingface)](https://huggingface.co/collections/shi-labs/mapreduce-lora) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/SHI-Labs/T2I-Copilot/blob/master/LICENSE) [![BibTeX](https://img.shields.io/badge/BibTeX-green)](#citation)
+
+</div>
 
 
 <p align="center">
