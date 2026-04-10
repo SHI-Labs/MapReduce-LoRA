@@ -1,5 +1,26 @@
 ## MapReduce LoRA: Advancing the Pareto Front in Multi-Preference Optimization for Generative Models
 
+<p align="center">
+Chieh-Yun Chen¹,
+Zhonghao Wang²†,
+Qi Chen²,
+Zhifan Ye¹,
+Min Shi¹,
+Yue Zhao¹,<br>
+Yinan Zhao²,
+Hui Qu²,
+Wei-An Lin²,
+Yiru Shen²,
+Ajinkya Kale²,
+Irfan Essa¹,
+Humphrey Shi¹†
+</p>
+
+<p align="center">
+¹Georgia Tech &nbsp;&nbsp; ²Adobe &nbsp;&nbsp; †Corresponding authors<br>
+<em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2026</em>
+</p>
+
 [![arXiv](https://img.shields.io/badge/arXiv-2511.20629-red)](https://arxiv.org/pdf/2511.20629) [![HF Model](https://img.shields.io/badge/HF-Model-yellow?logo=huggingface)](https://huggingface.co/collections/shi-labs/mapreduce-lora) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/SHI-Labs/T2I-Copilot/blob/master/LICENSE) [![BibTeX](https://img.shields.io/badge/BibTeX-green)](#citation)
 
 
@@ -266,10 +287,10 @@ We gratefully acknowledge the generous contributions of the open-source communit
 If you find this work useful, please cite:
 
 ```bibtex
-@article{chen2025mapreducelora,
+@inproceedings{chen2026mapreducelora,
   title        = {MapReduce LoRA: Advancing the Pareto Front in Multi-Preference Optimization for Generative Models},
   author       = {Chieh-Yun Chen and Zhonghao Wang and Qi Chen and Zhifan Ye and Min Shi and Yue Zhao and Yinan Zhao and Hui Qu and Wei-An Lin and Yiru Shen and Ajinkya Kale and Irfan Essa and Humphrey Shi},
-  year         = {2025},
-  journal      = {arXiv preprint arXiv:2511.20629}
+  booktitle    = {Proceedings of the {IEEE/CVF} Conference on Computer Vision and Pattern Recognition ({CVPR})},
+  year         = {2026}
 }
 ```
